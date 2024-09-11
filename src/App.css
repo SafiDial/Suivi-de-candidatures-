@@ -1,0 +1,33 @@
+/* src/App.css */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.calendar-container {
+  position: relative;
+}
+
+.btn-primary {
+  margin-bottom: 20px;
+}
+
+.calendar-container .react-calendar {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Styles pour les couleurs des statuts */
+.bg-en-attente {
+  background: #f0ad4e; /* orange */
+}
+
+.bg-entretien {
+  background: #5bc0de; /* blue */
+}
+
+.bg-accepte {
+  background: #5cb85c; /* green */
+}
+
+.bg-refuse {
+  background: #d9534f; /* red */
+}
